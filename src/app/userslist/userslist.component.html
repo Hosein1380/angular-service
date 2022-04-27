@@ -1,0 +1,5 @@
+<div *ngFor="let user of mainArray" >
+
+    <a [routerLink]="['profile', user.login]">{{"login:"+ user.login}}</a>
+    
+  </div>
